@@ -1,0 +1,36 @@
+.custom-phone-frame {
+    border: 12px solid #1a1a1a; 
+    border-radius: 40px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+    aspect-ratio: 9 / 19;
+    margin: 0 auto;
+}
+
+.carousel-indicators [button] {
+    background-color: #000;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin: 0 6px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1) grayscale(100) brightness(0);
+    padding: 20px; /* Larger hit area for mobility accessibility */
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: contain;
+    background-color: #fff;
+}
+
+.carousel-control-prev:focus,
+.carousel-control-next:focus,
+.carousel-indicators button:focus {
+    outline: 3px solid #0056b3;
+    outline-offset: 2px;
+}
